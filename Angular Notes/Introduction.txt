@@ -1,0 +1,27 @@
+- Client side js framework
+
+Goals
+-------
+1.Separate DOM manipulation from application logic.
+2.Separation of concern using (MVC)
+3.SPA
+4.provide a fundation for robust/enterprise-scale js client side application
+5.Extention and customization
+
+cdn
+module
+ng-app
+expression
+
+finds template
+-----
+template contain a ng,exression and data-binding mark up
+
+process template
+--------
+1.compile
+2.Load to memory
+3.Transform template with data
+
+Renders dom view
+

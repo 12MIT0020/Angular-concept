@@ -1,0 +1,15 @@
+one way binding
+-------------
+
+accomplished throgh ng-bind or evaluation of expression
+
+used in non input element only
+
+two-way binding
+-------------
+ng-model
+
+one time data binding
+------------
+lperformed throguh '::'
+

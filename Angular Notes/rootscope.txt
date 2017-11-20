@@ -1,0 +1,16 @@
+rootscope
+----------
+angular.module('sample',[]).run($rootscope,function($rootscope))(){
+	$rootscope.taxpercent = 30;
+});
+
+
+wherever angular encounter ng-app  $rootscope is created
+
+
+Modifiying rootscope
+---------
+rootscope can be modified in any of the sibling but this is not a good practice 
+to use rootscope to share data among child scope
+
+rootscope can be initialized in any controller too

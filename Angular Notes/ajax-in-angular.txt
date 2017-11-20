@@ -1,0 +1,4 @@
+cross browser/domain sharing
+----------------------------
+if browser is requesting a domain and through ajax brower is trying to access another domain.
+CORS should be enabled

@@ -1,0 +1,18 @@
+scope
+------
+scope is a memory of DOM
+it get merge with controller variable as sooon as it get ng-controller
+
+$scope has acess to scope of DOM.
+the property and method which is created in $scope also available to scope
+
+$0 will get highlighted element
+
+angular.element($0).scope()
+
+angular.element($0).scope().digest()
+
+scope inheritance
+-----------------
+1.if a div has a nested div with ng-controller then scope has a child div
+and it has access to parent class property and method

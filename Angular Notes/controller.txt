@@ -1,0 +1,9 @@
+controller
+---------
+controller are js logic which contain application logic
+
+allows us to send/recieve data  between  DOM and application logic
+
+usually attach to DOM element with attribute called ng-controller
+
+gives data to ui (passes data from controller to Ui (one-way binding) )
