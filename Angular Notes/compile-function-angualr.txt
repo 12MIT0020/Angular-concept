@@ -1,0 +1,43 @@
+compile
+-------
+loads and traverse Template DOM
+executes only once
+Returns link function
+	or object (containing pre,post)
+	etc
+No Scope present
+No instances/clones(of template) created yet
+Do oeration which can shared among all instances/clones
+of tempalate
+can manipulate DOM of tempalate
+Cannot play with data/events of clones
+No DOM of clones available
+Link
+-------
+Takes place after compilation
+
+Phases of Link
+-------------
+1.controller
+2.pre-link
+3.Link
+
+controller
+-------
+
+The first to execute  for every instance/clone of template
+
+create scope for the templae instance
+
+pre-link
+--------
+Execute immediately after controller phase
+child element /directives not ready.
+safe to set data and even child data.
+
+post-link
+----------
+The last phase(of every instance) usually called "linking"(or link funciton)
+DOM tempalate instance is available
+scope and instance linked(and data bound)
+Child element/directives are ready(an)

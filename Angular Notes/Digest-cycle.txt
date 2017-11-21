@@ -1,0 +1,7 @@
+Dirty cycle
+==============
+steps for digest cycle
+---------------------
+1.some kind of event is triggered by the end user like typing,button click etc and due to this activity model value changes.
+2.Angular first checks if the new value and old values are same.if not it involve digest cycle.
+3.Digest cycle then runs throgh the scope to check the variable this work is done by watcher

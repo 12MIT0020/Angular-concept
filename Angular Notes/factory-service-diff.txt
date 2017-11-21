@@ -1,0 +1,9 @@
+difference between factorty and service
+-----------------
+1.when we want to create different types of objects depending on scenarios.
+
+when we have utility or shared function tobe injected 
+
+2. No instances created .A methos pointer is passed.
+
+Global and shared instance is created.

@@ -1,0 +1,28 @@
+SPA(single page application)
+----
+
+SPA is concept where rather than loading page from server through postback we create a single shell page or master page
+and loads the webpages inside that master page.
+
+SPA implemented using routing
+
+Angular routing is a three step process (Below is a visual diagram for the same): -
+
+    Step 1: - End user clicks on a hyperlink or button and generates action.
+    Step 2: - This action is routed to the route provider.
+    Step 3: - Router provider scans the URL and loads the view in the place holder defined by “ng-view” attribute.
+	
+	
+Routing can be implemented through routing too by angular-UI
+Angualr UI implements routing through states
+
+myApp.config(function ($stateProvider, $urlRouterProvider) {
+    $stateProvider
+        .state('Home', {
+            url: '/HomePage',
+            templateUrl: 'Home.htm'
+        })
+        .state('About', {
+url: '/About',
+            templateUrl: 'About.htm'
+        })};

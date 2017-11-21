@@ -1,0 +1,14 @@
+angular js
+----------
+
+communication between controller
+----------------------------------
+in word-owrd-popup-controller 
+
+function wittyWordPopupController($scope, $uibModalInstance, $uibModal, witInfo, appData, witService, notify, ngNotify, $state, $window, popUpService, $timeout , FILE_TO_BE_ATTACH , authFactory , fileUtil, callbacks) {
+
+
+    $scope.insert = function($event){
+      //console.log (callbacks.variableObj.id+"++===++"+$scope.richText);
+    callbacks.insertRT(callbacks.variableObj,$scope.richText);
+    };
