@@ -1,0 +1,29 @@
+steps 
+----
+1.include ngroute module
+2.use ngroute
+3.use $routeprovider to confugure route
+4.declare ng-view
+
+three benefits
+-----------------
+goes to a location
+gets new content
+injects into current HTML
+
+UI-route
+---------
+powerful than ngRoute
+Developed arround the concept of states
+identified by its own name
+configured using $stateProvider
+
+Benefits
+------
+1.Multiple views
+2.Nested states
+
+steps for ui-routter
+1.include ui-router
+2.use ui-router (as module dependency)
+use $stateProvider to confugure states

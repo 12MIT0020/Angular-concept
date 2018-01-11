@@ -27,7 +27,7 @@ controller
 
 The first to execute  for every instance/clone of template
 
-create scope for the templae instance
+create scope for the template instance
 
 pre-link
 --------

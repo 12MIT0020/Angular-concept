@@ -4,6 +4,6 @@ difference between factorty and service
 
 when we have utility or shared function tobe injected 
 
-2. No instances created .A methos pointer is passed.
+2. No instances created .A methods pointer is passed.
 
 Global and shared instance is created.
